@@ -317,6 +317,7 @@ set(LLVM_ALL_TARGETS
   RISCV
   Sparc
   SystemZ
+  WDC65816
   X86
   XCore
   )

@@ -34,6 +34,7 @@ subdirectories =
  Sparc
  SystemZ
  WebAssembly
+ WDC65816
  X86
  XCore
 
