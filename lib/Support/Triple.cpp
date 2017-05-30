@@ -658,6 +658,9 @@ static Triple::ObjectFormatType getDefaultFormat(const Triple &T) {
   case Triple::wasm32:
   case Triple::wasm64:
   case Triple::xcore:
+  /* BEGIN WDC65816 */
+  case Triple::wdc65816:
+  /* END WDC65816 */
     return Triple::ELF;
 
   case Triple::ppc:
